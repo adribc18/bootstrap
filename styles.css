@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(pexels-max-rahubovskiy-6296925.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(50%);
+}
+.hero-content {
+    position: relative;
+    text-align: center;
+    padding-top: 130px;
+    
+}
+.level1{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+
+}
+
+.hero-title{
+    font-size: 90px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+span{
+    color: rgb(199, 38, 199);
+}
+
+.hero-button{
+    background-color:rgb(199, 38, 199);
+    padding: 10px 40px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    color: white;
+
+} 
+.col{
+    color: white;
+    font-size: 25px;
+}
+
